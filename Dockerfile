@@ -1,4 +1,4 @@
-ROM nvidia/cuda-ppc64le:9.2-devel
+FROM nvidia/cuda-ppc64le:9.2-devel
 COPY . /helloworldcuda
 WORKDIR /helloworldcuda
 ENV NVIDIA_VISIBLE_DEVICES all
